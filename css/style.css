@@ -1,19 +1,33 @@
 @charset "UTF-8";
 /* хедер */
+* {
+  overflow: hidden;
+}
+
 .header {
   display: flex;
   /* width: 1600px; */
   height: 80px;
   align-items: center;
   border-bottom: 1px solid black;
+  margin: 0;
+  padding: 0cap;
+  margin-left: 1px;
+  height: 100px;
+  width: 1200px;
 }
 
 .about {
   display: block;
 }
 
+.nav__list--item {
+  width: 100px;
+}
+
 .nav {
   display: flex;
+  width: auto;
 }
 
 .zxzxc {
