@@ -527,6 +527,7 @@ body {
 
 footer {
   background-color: #2f303a;
+  height: 200px;
 }
 footer .web {
   color: #2196f3;
@@ -561,11 +562,8 @@ footer address {
   letter-spacing: 0.42px;
 }
 footer .contact-us-links {
-  display: flex;
   width: 231px;
   height: 21px;
-  flex-direction: column;
-  flex-shrink: 0;
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-size: 14px;
