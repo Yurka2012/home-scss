@@ -1,0 +1,35 @@
+footer {
+  background-color: #2f303a;
+  .web {
+    color: #2196f3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+  }
+  .studia {
+    color: hsl(0, 0%, 100%);
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+  }
+  address {
+    display: flex;
+    width: 231px;
+    height: 21px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+  }
+}
