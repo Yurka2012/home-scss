@@ -1,7 +1,4 @@
 /* хедер */
-*{
-  overflow: hidden;
-}
 .header {
     display: flex;
     /* width: 1600px; */
@@ -13,7 +10,18 @@
     margin-left: 1px;
     height: 100px;
     width: 1200px;
+  
   }
+  // .header__menu-item {
+  //   transition: background-color 0.3s ease;
+  // }
+  
+  // .header__menu-item:hover {
+  //   background-color: #ff0000;
+  // }
+  
+
+  // navigation and so on
 
   
   .about {
@@ -21,29 +29,27 @@
   }
   .nav__list--item{
     width: 100px;
+    font-size: medium;
+    font-weight: 100;
   }
   
   .nav {
     display: flex;
     width: auto;
   }
-  
-  .zxzxc {
-    color: #212121;
-  }
+
   .nav__list {
     display: flex;
     align-items: center;
   
     margin-right: 345px;
   }
-  
   .nav__list--item:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 0px;
   }
   
   .contacts-item:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 0px;
   }
   
   .header__contacts {
@@ -52,7 +58,7 @@
   }
   
   .contact-link {
-    width: 122px;
+    width: 106px;
     height: 16px;
   }
   
@@ -68,10 +74,10 @@
   
     letter-spacing: 0.03em;
   
-    color: var(--black);
+    color: black;
   
     margin-right: 95px;
-    margin-left: 215px;
+    // margin-left: 215px;
   }
   
   .logo--web {

@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /* хедер */
-* {
-  overflow: hidden;
-}
-
 .header {
   display: flex;
   /* width: 1600px; */
@@ -23,15 +19,13 @@
 
 .nav__list--item {
   width: 100px;
+  font-size: medium;
+  font-weight: 100;
 }
 
 .nav {
   display: flex;
   width: auto;
-}
-
-.zxzxc {
-  color: #212121;
 }
 
 .nav__list {
@@ -41,11 +35,11 @@
 }
 
 .nav__list--item:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 0px;
 }
 
 .contacts-item:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 0px;
 }
 
 .header__contacts {
@@ -54,7 +48,7 @@
 }
 
 .contact-link {
-  width: 122px;
+  width: 106px;
   height: 16px;
 }
 
@@ -67,9 +61,8 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: var(--black);
+  color: black;
   margin-right: 95px;
-  margin-left: 215px;
 }
 
 .logo--web {
